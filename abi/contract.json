@@ -1,0 +1,44 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            { "internalType": "uint8", "name": "backgroud", "type": "uint8" },
+            { "internalType": "uint8", "name": "body", "type": "uint8" },
+            { "internalType": "uint8", "name": "face", "type": "uint8" },
+            { "internalType": "uint8", "name": "clothes", "type": "uint8" }
+          ],
+          "internalType": "struct CharacterExample.Character",
+          "name": "_char",
+          "type": "tuple"
+        }
+      ],
+      "name": "createCharacter",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "_player", "type": "address" }
+      ],
+      "name": "getCharacter",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "uint8", "name": "backgroud", "type": "uint8" },
+            { "internalType": "uint8", "name": "body", "type": "uint8" },
+            { "internalType": "uint8", "name": "face", "type": "uint8" },
+            { "internalType": "uint8", "name": "clothes", "type": "uint8" }
+          ],
+          "internalType": "struct CharacterExample.Character",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
